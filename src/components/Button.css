@@ -18,7 +18,7 @@
 }
 
 .btn--outline {
-  border-color: transparent;
+  background-color: transparent;
   color: #fff;
   padding: 8px 20px;
   border: 1px solid var(--primary);
@@ -27,7 +27,7 @@
 
 .btn--medium {
   padding: 8px 20px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .btn--large {
@@ -99,4 +99,14 @@
   background-color: #fff;
   color: #242424;
   border: none;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }
